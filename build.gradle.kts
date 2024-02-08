@@ -7,6 +7,8 @@ buildscript {
     classpath(libs.plugin.licensee)
     classpath(libs.plugin.paparazzi)
     classpath(libs.plugin.publish)
+
+    classpath ("com.github.dcendents:android-maven-gradle-plugin:2.1")
   }
 }
 
